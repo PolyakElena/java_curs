@@ -5,7 +5,7 @@ import static ru.stqa.pft.sandbox.Point.distance;
 
 public class MyFirstProgram {
 
-    //    public static void main(String[] args) {
+//        public static void main(String[] args) {
 //        hello("world");
 //        hello("Elena");
 //
@@ -20,6 +20,8 @@ public class MyFirstProgram {
 //        System.out.println("Hello, " + name + "!");
 //    }
 
+
+    //    Задание 2
     public static void main(String[] args) {
         Point p1 = new Point();
         Point p2 = new Point();
