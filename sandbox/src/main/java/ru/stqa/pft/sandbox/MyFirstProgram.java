@@ -1,5 +1,8 @@
 package ru.stqa.pft.sandbox;
 
+
+import static ru.stqa.pft.sandbox.Point.distance;
+
 public class MyFirstProgram {
 
     //    public static void main(String[] args) {
@@ -16,9 +19,17 @@ public class MyFirstProgram {
 //    public static void hello(String name) {
 //        System.out.println("Hello, " + name + "!");
 //    }
+
     public static void main(String[] args) {
-        Point p = new Point(1, 2, 3, 4);
-        System.out.println(p.distance());
+        Point p1 = new Point();
+        Point p2 = new Point();
+
+        p1.x1 = 1;
+        p1.y1 = 1;
+        p2.x2 = 1;
+        p2.y2 = 1;
+
+        System.out.println(distance(p1, p2));
     }
 
 }
