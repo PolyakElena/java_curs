@@ -23,15 +23,9 @@ public class MyFirstProgram {
 
     //    Задание 2
     public static void main(String[] args) {
-        Point p1 = new Point();
-        Point p2 = new Point();
-
-        p1.x1 = 1;
-        p1.y1 = 1;
-        p2.x2 = 1;
-        p2.y2 = 1;
+        Point p1 = new Point(1.0, 1.0);
+        Point p2 = new Point(1.0, 1.0);
 
         System.out.println(distance(p1, p2));
     }
-
 }

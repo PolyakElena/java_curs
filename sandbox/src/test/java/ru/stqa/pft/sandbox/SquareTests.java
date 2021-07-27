@@ -14,12 +14,8 @@ public class SquareTests {
     //    Задание 3
     @Test
     public void testDistanceOne() {
-        Point p1 = new Point();
-        Point p2 = new Point();
-        p1.x1 = 1;
-        p1.y1 = 1;
-        p2.x2 = 1;
-        p2.y2 = 1;
+        Point p1 = new Point(1, 1);
+        Point p2 = new Point(1, 1);
 
         Assert.assertEquals(Point.distance(p1, p2), 0.0);
         ;
@@ -27,12 +23,8 @@ public class SquareTests {
 
     @Test
     public void testDistanceTwo() {
-        Point p1 = new Point();
-        Point p2 = new Point();
-        p1.x1 = 4;
-        p1.y1 = 4;
-        p2.x2 = 20;
-        p2.y2 = 20;
+        Point p1 = new Point(4, 4);
+        Point p2 = new Point(20, 20);
 
         Assert.assertNotEquals(Point.distance(p1, p2), 0.0);
     }
